@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    background-image: url(bilder/devin-avery-bx1G9db3FjA-unsplash\ \(1\).jpg);
+}
+h1 {
+    color: darkorchid;
+    font-size: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    color: chartreuse;
+}
