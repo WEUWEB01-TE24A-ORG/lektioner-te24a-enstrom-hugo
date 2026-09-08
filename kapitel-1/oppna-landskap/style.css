@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Fontdiner+Swanky&display=swap');
+body {
+    background-image: url(bilder/claudio-testa--SO3JtE3gZo-unsplash\ \(1\).jpg);
+    background-size: cover;
+}
+h1 {
+    font-family: "Fontdiner Swanky", serif;
+    color: seagreen;
+    font-size: 50px;
+    margin-left: 30%;
+}
+h2 {
+      font-family: "Encode Sans Semi Expanded", sans-serif;
+      font-size: 15px;
+      margin-left: 30%;
+}
+p {
+      font-family: "Encode Sans Semi Expanded", sans-serif;
+      color: darkmagenta;
+      margin-left: 30%;
+      background-color: rgba(127, 255, 212, 0.521);
+      width: 490px;
+      padding: 30px;
+      border-radius: 20px;
+}
+a {}
