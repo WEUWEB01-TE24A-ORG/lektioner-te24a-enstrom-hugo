@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Orbitron:wght@400..900&display=swap');
+body{
+    background-color: rgb(8, 122, 236);
+}
+h1{
+font-size: 150px;
+margin-left: 350px;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  text-transform: uppercase;
+  text-shadow: 5px 1px 0 rgb(141, 21, 188);
+
+}
+p{
+margin-left: 500px;
+background-color: rgb(119, 214, 214);
+width: 400px;
+font-size: 25px;
+border-radius: 10px;
+ font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+table{
+
+}
+tr{
+
+}
+th{
+background-color: rgb(119, 159, 228);
+padding: 1px 1px 0 50px;
+font-size: 40px;
+padding: 100px;
+}
+
+img{
+    
+    size: 800px 1000px 1000px;
+    margin-left: 400px;
+    border-radius: 20px;
+    
+}
+div{
+    margin-left: 420px;
+}
