@@ -20,6 +20,8 @@ border-radius: 10px;
  font-family: "Comic Relief", system-ui;
   font-weight: 400;
   font-style: normal;
+background-image: url(./bilder/jack-b-lKvN0xV4jeA-unsplash.jpg);
+color: rgb(195, 255, 0);
 
 }
 table{
@@ -32,7 +34,11 @@ th{
 background-color: rgb(119, 159, 228);
 padding: 1px 1px 0 50px;
 font-size: 40px;
-padding: 100px;
+color: rgb(0, 0, 0);
+padding: 40px;
+border-radius: 10px;
+text-decoration: none;
+
 }
 
 img{
@@ -44,4 +50,8 @@ img{
 }
 div{
     margin-left: 420px;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
 }
