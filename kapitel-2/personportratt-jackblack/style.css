@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Orbitron:wght@400..900&display=swap');
+body{
+    background-color: rgb(183, 192, 203);
+}
+h1{
+font-size: 150px;
+margin-left: 160px;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  text-transform: uppercase;
+  text-shadow: 5px 1px 0 rgb(255, 255, 255);
+
+}
+p{
+margin-left: 510px;
+background-color: rgb(48, 44, 44);
+width: 400px;
+font-size: 25px;
+border-radius: 10px;
+ font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+background-image: url(./bilder/jack-b-lKvN0xV4jeA-unsplash.jpg);
+color: rgb(195, 255, 0);
+
+}
+table{
+
+}
+tr{
+
+}
+th{
+background-color: rgb(76, 83, 96);
+padding: 1px 1px 0 50px;
+font-size: 35px;
+color: rgb(0, 0, 0);
+padding: 40px;
+border-radius: 10px;
+text-decoration: none;
+
+}
+td {
+    background-color: rgb(76, 83, 96);
+padding: 1px 1px 0 50px;
+font-size: 25px;
+color: rgb(0, 0, 0);
+padding: 40px;
+border-radius: 10px;
+text-decoration: none;
+}
+img{
+    
+    
+    margin-left: 330px;
+    border-radius: 20px;
+    
+}
+div{
+    margin-left: 420px;
+}
+a{
+    text-decoration: none;
+    color: rgb(224, 150, 39);
+}
