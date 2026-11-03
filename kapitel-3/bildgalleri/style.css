@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Unkempt:wght@400;700&display=swap');
+
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* färger */
+:root {
+--petal-frost: #ffd6ffff;
+--mauve: #e7c6ffff;
+--mauve-2: #c8b6ffff;
+--periwinkle: #b8c0ffff;
+--periwinkle-2: #bbd0ffff;
+}
+
+
+/* sidans utseende */
+body {
+font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #b8c0ffff;
+}
+
+div.container {
+    width: 800px;
+    
+margin-left: auto;
+margin-right: auto;
+}
+/* titel utseende */
+h1 {
+font-family: "Crafty Girls", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+p.intro {
+font-size: 40px;
+text-align: center;
+}
+/* boxar utseende */
+div.first {
+    padding: 10px;
+    border-radius: 10px;
+background-color: #c8b6ffff;
+margin-bottom: 10px;
+display: flex;
+gap: 20px;
+}
+
+img {
+    width: 400px;
+    
+
+}
+
+p.firsttext {
+
+padding: 5px;
+}
+
+div.second {
+    padding: 10px;
+    border-radius: 10px;
+background-color: #c8b6ffff;
+margin-bottom: 10px;
+
+gap: 20px;
+}
+p.secondtext {
+padding: 5px;
+}
+
+.right {
+    flex-direction: row-reverse;
+}
+
+
+div.third {
+    padding: 10px;
+    border-radius: 10px;
+background-color: #c8b6ffff;
+margin-bottom: 10px;
+display: flex;
+gap: 20px;
+}
+p.thirdtext {
+
+padding: 5px;
+}
+
+/*  */
+
