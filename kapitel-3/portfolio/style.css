@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Redaction+35:ital,wght@0,400;0,700;1,400&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+--molten-lava: #780000ff;
+--brick-red: #c1121fff;
+--papaya-whip: #fdf0d5ff;
+--deep-space-blue: #003049ff;
+--steel-blue: #669bbcff;
+}
+
+/* sidans utseende */
+
+h1 {
+    font-family: "Tiny5 Duo", sans-serif;
+  font-optical-sizing: auto;
+    text-align: center;
+}
+
+body {
+    background-color: #003049ff;
+    width: 1500px;
+}
+
+p {
+    font-family: "Redaction 35", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/* boxars utseende */
+
+.big {
+background-color: #669bbcff;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+}
+.intro {
+    text-align: center;
+}
+.box1 {
+    width: 400px;
+
+display: flex;
+}
+
+.box2 {
+background-color: #fdf0d5ff;
+margin-bottom: 10px;
+width: 400px;
+}
+
+/* img utseende */
+
+.imgone {
+
+}
+.imgtwo {
+width: 200px;
+}
+
