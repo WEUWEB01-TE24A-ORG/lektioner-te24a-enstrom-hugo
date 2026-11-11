@@ -49,32 +49,58 @@ p {
 
 .big {
 background-color: #669bbcff;
-width: 800px;
+width: 1000px;
 margin-left: auto;
 margin-right: auto;
 padding: 10px;
+
+}
+.boxflex {
+    
+display: flex;
+}
+.boxflex2 {
+
 }
 .intro {
     text-align: center;
+    background-color: rgba(120, 0, 0, 0.914);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px
+    
+    
 }
 .box1 {
-    width: 400px;
+    width: 450px;
+    background-color: #fdf0d5ff;
+    margin-bottom: 10px;
 
-display: flex;
+    
 }
 
 .box2 {
+    width: 450px;
 background-color: #fdf0d5ff;
 margin-bottom: 10px;
-width: 400px;
+margin-left: 100px;
+
+
+}
+
+.box3 {
+
 }
 
 /* img utseende */
 
 .imgone {
-
+width: 200px;
+height: 200px;
 }
 .imgtwo {
 width: 200px;
 }
-
+.imgthree {
+    width: 200px;
+}
