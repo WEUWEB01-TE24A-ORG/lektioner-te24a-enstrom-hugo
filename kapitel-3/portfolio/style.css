@@ -31,11 +31,23 @@ h1 {
     font-family: "Tiny5 Duo", sans-serif;
   font-optical-sizing: auto;
     text-align: center;
+    color: azure;
+    margin-bottom: 10px;
 }
+h2 {
+    font-family: "Tiny5 Duo", sans-serif;
+  font-optical-sizing: auto;
+    text-align: center;
+    margin-bottom: 10px;
 
+}
+ul {
+    margin-left: 90px;
+}
 body {
     background-color: #003049ff;
     width: 1500px;
+    height: 2000px;
 }
 
 p {
@@ -43,6 +55,19 @@ p {
   font-weight: 400;
   font-style: normal;
 
+}
+strong {
+    color: blueviolet;
+}
+.text1 {
+    margin-left: 10px;
+}
+.text2 {
+    width: 300px;
+    margin-left: 100px;
+}
+.introtext {
+    background-color: #fdf0d5ff;
 }
 
 /* boxars utseende */
@@ -53,6 +78,9 @@ width: 1000px;
 margin-left: auto;
 margin-right: auto;
 padding: 10px;
+height: 1600px;
+border-radius: 10px;
+margin-top: 10px;
 
 }
 .boxflex {
@@ -75,8 +103,12 @@ display: flex;
     width: 450px;
     background-color: #fdf0d5ff;
     margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    color: #780000ff;
+    display: flex;
 
-    
 }
 
 .box2 {
@@ -84,23 +116,62 @@ display: flex;
 background-color: #fdf0d5ff;
 margin-bottom: 10px;
 margin-left: 100px;
-
+padding: 10px;
+display: flex;
+border-radius: 10px;
+border-style: solid;
+    color: #780000ff;
 
 }
 
 .box3 {
-
+background-color: #fdf0d5ff;
+padding: 10px;
+text-align: center;
+border-radius: 10px;
+margin-bottom: 20px;
+display: flex;
+border-style: solid;
+    color: #780000ff;
 }
-
+.box4 {
+    background-color: #fdf0d5ff;
+    border-radius: 10px;
+    padding: 20px;
+    border-style: solid;
+    color: #780000ff;
+    
+}
+.list {
+    display: flex;
+    
+    
+}
 /* img utseende */
 
 .imgone {
-width: 200px;
-height: 200px;
+width: 250px;
+color: #c1121fff;
+border-style: solid;
+border-radius: 10px 10px 10px;
+
 }
 .imgtwo {
 width: 200px;
+color: #c1121fff;
+border-style: solid;
+border-radius: 10px 10px 10px;
 }
 .imgthree {
     width: 200px;
+    color: #c1121fff;
+border-style: solid;
+border-radius: 10px 10px 10px;
+}
+
+.imgfour {
+    color: #c1121fff;
+border-style: solid;
+border-radius: 10px 10px 10px;
+width: 400px;
 }
