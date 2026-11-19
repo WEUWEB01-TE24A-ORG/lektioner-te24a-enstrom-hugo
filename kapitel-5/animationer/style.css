@@ -1,0 +1,78 @@
+
+
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #9c10c3;
+    text-align: center;
+  
+}
+.ruta {
+    width: 100px;
+    height: 100px;
+    background-color: #d81818;
+    margin: 50px auto;
+    
+}
+
+.ruta:hover {
+animation: change-form 2s infinite;
+ 
+}
+body:has(.ruta:hover) {
+ animation: change-color 1s infinite;
+
+}
+@keyframes change-color {
+    0% {
+        background-color: #fdfdfd;
+    }
+    50% {
+        background-color: #cae80a;
+
+    }
+    75% {
+        background-color: #0400fe;
+    }
+    100% {
+        background-color: #ffffff;
+    }
+}
+@keyframes change-form {
+    0%{
+        border-radius: 0;
+        width: 100px;
+        height: 100px;
+    }
+    25%{
+        border-radius: 50px;
+        width: 200px;
+        height: 600px;
+    }
+    50%{
+        border-radius: 25px;
+        width: 300px;
+        height: 500px;
+    }
+    100%{
+        border-radius: 0;
+        width: 100px;
+        height: 100px;
+    }
+    
+}
