@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Commissioner:wght@100..900&family=Syne+Mono&display=swap');
 
 
 /* Enkel CSS-reset */
@@ -20,58 +20,90 @@ img {
 /* sidans utseende */
 body {
 
-background-image: url(./bilder/IMG_7592.png);
+background-color: #7dcea0;
 }
-h1 {
-    text-align: center;
-}
-h2 {
-    text-align: center;
-}
+
+
 
 /* boxars utseende */
 header {
+background-color: #14714f;
+margin-bottom: 100px;
+font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+    h1 {
+        text-align: center;
+        font-size: 50px;
+    }
 
+    nav {
+         
+    text-align: center;
+    padding: 30px;
+        .linkmeny {
+    background-color: #134bcf;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    .linkmenyX {
+    background-color: #16de0c;
+    text-decoration: none;
+    font-size: 25px;
+    }
+    
+    }
+   
 }
 .bordsduk {
     width: 800px;
-    height: 900px;
     margin-left: auto;
     margin-right: auto;
     background-color: #ce84e9;
 }
 main {
+    padding: 20px;
 
-}
-figure {
+    figure {
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 500px;
     background-color: #fff;
     padding: 10px;
     color: #16de0c;
     border-style: solid;
-}
-nav {
-    text-align: center;
-    padding: 30px;
     
-    
-    
-}
-footer {
+    img {
+        
+    }
+    figcaption {
 
+    }
+    }
+    h2 {
+        font-size: 80px;
+    text-align: center;
+    font-family: "BBH Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+    p {
+         font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-top: 50px;
+    }
+
+}
+
+footer {
+    padding: 20px;
+    background-color: #9f40ec;
+    p {
+        text-align: center;
+        margin-top: 150px;
+
+    }
 }
 
 /* textens utseende */
-.linkmeny {
-    background-color: #134bcf;
-    text-decoration: none;
-    font-size: 20px;
-}
-.linkmenyX {
-    background-color: #16de0c;
-    text-decoration: none;
-    font-size: 25px;
-
-}

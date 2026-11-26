@@ -31,11 +31,11 @@ body {
 }
 
 .ruta:hover {
-animation: change-form 2s infinite;
+animation: change-form 2ms infinite;
  
 }
 body:has(.ruta:hover) {
- animation: change-color 1s infinite;
+ animation: change-color 1ms infinite;
 
 }
 @keyframes change-color {
